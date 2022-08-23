@@ -1,6 +1,6 @@
-'''Adicione ao módulo moeda.py, uma função chamada resumo(),que mostra na tela algumas informações geradas pelas funções
-que já temos no modulo criado até aqui.'''
-from des107 import moeda
+'''Criando um pacote chamado utilidades que tenha dois modulos internos chamados moedas e dados.
+Transferindo todas as funções do modulo moeda para o pacote moeda e mantendo tudo funcionando.'''
+from des107.utilidades import moeda, dado
 
 p = float(input('Digite o preço: R$'))
 moeda.resumo(p, 20, 12)
