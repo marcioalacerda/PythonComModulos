@@ -4,6 +4,7 @@
     <list default="true" id="ffff783e-fc53-4be1-8dba-63b03db0421a" name="Changes" comment="Adicionando novo método, moeda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/des107/Formatando_Moeda_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/des107/Formatando_Moeda_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/des107/moeda.py" beforeDir="false" afterPath="$PROJECT_DIR$/des107/moeda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
