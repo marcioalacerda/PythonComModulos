@@ -1,10 +1,6 @@
-'''Modifique as funções que foram criadas inicialmente, para que elas aceitem um parâmetro a mais, informando
-se o valor retornado por elas, vai ser ou não formatado pela função moeda()'''
+'''Adicione ao módulo moeda.py, uma função chamada resumo(),que mostra na tela algumas informações geradas pelas funções
+que já temos no modulo criado até aqui.'''
 from des107 import moeda
 
 p = float(input('Digite o preço: R$'))
-print(f'A metade de {moeda.moeda(p)} é {moeda.metade(p, True)}.') # o True é do formatado da função no modulo moeda
-print(f'O dobro de {moeda.moeda(p)} é {moeda.dobro(p, True)}.')
-print(f'Aumantando 10%, temos {moeda.aumentar(p, 10, True)}.')
-print(f'Reduzindo 13%, teos {moeda.diminuar(p, 13, True)}.')
-
+moeda.resumo(p, 20, 12)
