@@ -1,8 +1,9 @@
-'''Adapte o codigo, criando uma função adicional chamada moeda() que consiga mostrar valores com o valor monetário formatado'''
-from des107 import moeda
+'''Modifique as funções que foram criadas no desafio 107, para que elas aceitem um parâmetro a mais, informando
+se o valor retornado por elas vai ser ou não formatado pela função moeda() desenvolvida  no desafio 108'''
+from des109 import moeda
 
 p = float(input('Digite o preço: R$'))
-print(f'A metade de {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p))}.')
-print(f'O dobro de {moeda.moeda(p)} é {moeda.moeda(moeda.dobro(p))}.')
-print(f'Aumantando 10%, temos {moeda.moeda(moeda.aumentar(p, 10))}.')
-print(f'Reduzindo 13%, teos {moeda.moeda(moeda.diminuar(p, 13))}.')
+print(f'A metade de {moeda.moeda(p)} é {moeda.metade(p, True)}.') # o True é do formatado da função no modulo moeda
+print(f'O dobro de {moeda.moeda(p)} é {moeda.dobro(p, True)}.')
+print(f'Aumantando 10%, temos {moeda.aumentar(p, 10, True)}.')
+print(f'Reduzindo 13%, teos {moeda.diminuar(p, 13, True)}.')
